@@ -1,5 +1,4 @@
 # Challenge 1 - Team React
 
-Empty React-Bootstrap Project
-
-Content for docs will be added later...
+Work-In-Progress React version of the page.
+Totally separate from the vanilla page on main, DO NOT MERGE!
