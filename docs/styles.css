@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primary: #040474;
+}
+
+.topbar {
+	font-family: Syne, sans-serif;
+	background-color: var(--primary);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px 15px;
+}
+
+.links ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.links ul li {
+	padding: 0 10px;
+	font-weight: 600;
+}
+
+.header {
+	color: white;
+	padding: 2px 5px;
+	font-weight: 600;
+}
+
+.active {
+	color: #ff0d88;
+}
+
+.team {
+	background-color: #f60681;
+}
+.react {
+	background-color: #2828c4;
+}
