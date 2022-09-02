@@ -95,3 +95,14 @@ a:hover:after {
 	bottom: 0px;
 	transition: 0.3s;
 }
+
+#meet-our-members {
+	background-image: url(/docs/images/Team/stars-meet-our-members.svg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.username {
+	font-family: 'Tomorrow', sans-serif;
+	font-size: x-large;
+} 
