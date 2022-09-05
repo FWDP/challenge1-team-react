@@ -96,8 +96,22 @@ a:hover:after {
 	transition: 0.3s;
 }
 
+#best-team-react {
+	background-image: url(images/Logos/React-icon-bw.png), url(images/Team/stars-best-team-react.svg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 70%, 80%;
+	background-position-y: center;
+	background-blend-mode:color-dodge;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#best-team-react > p, #best-team-react, #meet-our-members > h1 {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 #meet-our-members {
-	background-image: url(/docs/images/Team/stars-meet-our-members.svg);
+	background-image: url(images/Team/stars-meet-our-members.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
 }
