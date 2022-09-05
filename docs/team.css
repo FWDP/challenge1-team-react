@@ -1,112 +1,17 @@
-*,
-*:before,
-*:after {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-.topbar {
-	position: sticky;
-	top: 0px;
-	font-family: Syne, sans-serif;
-	background-color: #040474;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.top-left {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: 15px 20px;
-}
-
-.top-left img {
-	height: 25px;
-	margin: 0 10px;
-}
-
-.header {
-	color: white;
-	padding: 2px 5px;
-	height: auto;
-	font-weight: 600;
-}
-
-.team {
-	background-color: #f60681;
-}
-
-.react {
-	background-color: #2828c4;
-}
-
-.links {
-	color: white;
-	width: 270px;
-	display: flex;
-	justify-content: space-around;
-	margin: auto 50px;
-}
-
-.links a {
-	position: relative;
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 0 15px;
-	line-height: 50px;
-}
-
-a::after {
-	content: "";
-	position: absolute;
-	background-color: white;
-	height: 3px;
-	width: 0;
-	left: 0;
-	bottom: 0px;
-	transition: 0.3s;
-}
-
-a:hover {
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
-	transition: 0.3s;
-}
-
-a:hover:after {
-	width: 100%;
-}
-
-.active {
-	color: #ff0d88;
-}
-
-.active::after {
-	content: "";
-	position: absolute;
-	background-color: #ff0d88;
-	height: 3px;
-	width: 100%;
-	left: 0;
-	bottom: 0px;
-	transition: 0.3s;
-}
-
 #best-team-react {
-	background-image: url(images/Logos/React-icon-bw.png), url(images/Team/stars-best-team-react.svg);
+	background-image: url(images/Logos/React-icon-bw.png),
+		url(images/Team/stars-best-team-react.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 70%, 80%;
 	background-position-y: center;
-	background-blend-mode:color-dodge;
+	background-blend-mode: color-dodge;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#best-team-react > p, #best-team-react, #meet-our-members > h1 {
+#best-team-react > p,
+#best-team-react,
+#meet-our-members > h1 {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -117,6 +22,6 @@ a:hover:after {
 }
 
 .username {
-	font-family: 'Tomorrow', sans-serif;
+	font-family: "Tomorrow", sans-serif;
 	font-size: x-large;
-} 
+}
