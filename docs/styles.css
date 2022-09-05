@@ -7,6 +7,8 @@
 }
 
 .topbar {
+	position: sticky;
+	top: 0px;
 	font-family: Syne, sans-serif;
 	background-color: #040474;
 	display: flex;
